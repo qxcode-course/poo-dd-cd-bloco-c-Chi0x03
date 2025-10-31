@@ -5,3 +5,12 @@
 2025-10-31 19:08:57, EXEC, v:1, k:poo@array, mode:LOCK, rate:0, size:19
 2025-10-31 19:09:07, MOVE, v:1, k:poo@array, mode:BACK
 2025-10-31 19:09:19, SELF, v:1, k:poo@array, rate:100, alone:10, study:10
+2025-10-31 19:44:40, MOVE, v:1, k:poo@budega, mode:DOWN
+2025-10-31 19:57:42, MOVE, v:1, k:poo@budega, mode:PICK
+2025-10-31 19:57:43, EXEC, v:1, k:poo@budega, mode:FULL, rate:0, size:82
+2025-10-31 19:58:31, EXEC, v:1, k:poo@budega, mode:FULL, rate:0, size:82
+2025-10-31 19:59:43, EXEC, v:1, k:poo@budega, mode:FULL, rate:10, size:82
+2025-10-31 20:00:09, EXEC, v:1, k:poo@budega, mode:FULL, rate:70, size:82
+2025-10-31 20:00:22, EXEC, v:1, k:poo@budega, mode:FULL, rate:100, size:80
+2025-10-31 20:00:25, MOVE, v:1, k:poo@budega, mode:BACK
+2025-10-31 20:00:53, SELF, v:1, k:poo@budega, rate:100, iagen:autocomplete_simples, alone:10, study:20

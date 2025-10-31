@@ -20,6 +20,7 @@ expanded:
 - poo@bloco_c-listas
 tasks:
   poo@array: '{rate:100, alone:10, study:10}'
+  poo@budega: '{rate:100, iagen:autocomplete_simples, alone:10, study:20}'
 flags:
   quests: 0
   tracks: 0
