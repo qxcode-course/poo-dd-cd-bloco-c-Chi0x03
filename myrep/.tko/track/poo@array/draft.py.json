@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-31_19-07-58",
+            "content": "@@ -404,12 +404,8 @@\n :%22, \n-str(\n list\n@@ -425,9 +425,8 @@\n objetos)\n-)\n",
+            "lines": "16"
+        },
+        {
+            "label": "2025-10-31_19-08-21",
+            "content": "@@ -253,76 +253,8 @@\n )%5D%0A%0A\n-lists_objetos_str = %5Bstr(obj) for obj in lista_preenchida_objetos%5D%0A%0A\n list\n@@ -365,10 +365,8 @@\n da)%0A\n-# \n prin\n@@ -404,47 +404,18 @@\n :%22, \n-lista_preenchida_objetos)%0Aprint(%22L\n+str(l\n ista\n- \n+_\n pree\n@@ -424,48 +424,14 @@\n hida\n- com \n+_\n objetos\n- (strings):%22, lists_objetos_str\n+)\n )\n",
+            "lines": "16"
+        },
+        {
+            "label": "2025-10-31_19-08-57",
+            "content": "class Foo:\n  def __init__(self, x):\n    self.x = x\n\n  def __str__(self):\n    return f\"Foo({self.x})\"\n\nlista_vazia: list[int] = []\nlista_preenchida: list[int] = [1, 2, 3, 4, 5]\nlista_preenchida_objetos: list[Foo] = [Foo(1), Foo(2), Foo(3), Foo(4), Foo(5)]\n\nlists_objetos_str = [str(obj) for obj in lista_preenchida_objetos]\n\nlista_preenchida_objetos.pop()\n\nprint(\"Lista vazia:\", lista_vazia)\nprint(\"Lista preenchida:\", lista_preenchida)\n# print(\"Lista preenchida com objetos:\", lista_preenchida_objetos)\nprint(\"Lista preenchida com objetos (strings):\", lists_objetos_str)",
+            "lines": "19"
+        }
+    ]
+}
