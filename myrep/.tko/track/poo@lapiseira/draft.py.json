@@ -1,0 +1,94 @@
+{
+    "patches": [
+        {
+            "label": "2025-11-02_19-02-24",
+            "content": "@@ -2541,41 +2541,4 @@\n do')\n-%0A%0Aif __name__ == '__main__':%0A  main()\n",
+            "lines": "113"
+        },
+        {
+            "label": "2025-11-02_19-02-35",
+            "content": "@@ -1900,14 +1900,14 @@\n r%7D, \n-tambor\n+barrel\n : %3C%7B\n",
+            "lines": "116"
+        },
+        {
+            "label": "2025-11-02_19-02-45",
+            "content": "@@ -1268,118 +1268,8 @@\n ol:%0A\n-    if lead.getThickness() != self.__thickness:%0A      print(%22fail: calibre incompativel%22)%0A      return False%0A%0A\n     \n",
+            "lines": "116"
+        },
+        {
+            "label": "2025-11-02_19-03-07",
+            "content": "@@ -1351,9 +1351,9 @@\n mpat\n-%C3%AD\n+i\n vel%22\n",
+            "lines": "120"
+        },
+        {
+            "label": "2025-11-02_19-03-12",
+            "content": "@@ -1900,16 +1900,18 @@\n lStr = '\n+, \n '.join(%5B\n",
+            "lines": "120"
+        },
+        {
+            "label": "2025-11-02_19-03-27",
+            "content": "@@ -1574,10 +1574,8 @@\n     \n- #\n  sel\n@@ -1588,68 +1588,8 @@\n ve()\n-%0A      print(%22fail: ja existe grafite no bico%22)%0A      return\n %0A%0A  \n",
+            "lines": "120"
+        },
+        {
+            "label": "2025-11-02_19-03-59",
+            "content": "@@ -1837,34 +1837,10 @@\n il: \n-nao existe grafite no bico\n+aa\n %22)%0A \n",
+            "lines": "122"
+        },
+        {
+            "label": "2025-11-02_19-04-09",
+            "content": "@@ -491,66 +491,8 @@\n size\n-%0A  %0A  def setSize(self, size: int):%0A    self.__size = size\n %0A%0A  \n@@ -1884,224 +1884,8 @@\n    %0A\n-    usage = self.__tip.usagePerSheet()%0A    if self.__tip.getSize() == 10:%0A      print(%22fail: folha incompleta%22)%0A      self.__tip.setSize(0)%0A      return%0A    %0A    self.__tip.setSize(self.__tip.getSize() - usage)%0A    %0A\n   de\n",
+            "lines": "122"
+        },
+        {
+            "label": "2025-11-02_19-27-18",
+            "content": "@@ -2014,52 +2014,8 @@\n = 10\n- %5C%0A      or self.__tip.getSize() - usage %3C 0\n :%0A  \n",
+            "lines": "133"
+        },
+        {
+            "label": "2025-11-02_19-27-57",
+            "content": "@@ -2052,19 +2052,17 @@\n  usage %3C\n-= 1\n+ \n 0:%0A     \n",
+            "lines": "134"
+        },
+        {
+            "label": "2025-11-02_19-28-29",
+            "content": "@@ -2010,25 +2010,24 @@\n () == 10\n-:\n+ %5C\n %0A     \n- #\n  or self\n",
+            "lines": "134"
+        },
+        {
+            "label": "2025-11-02_19-29-09",
+            "content": "@@ -2010,24 +2010,25 @@\n () == 10\n- %5C\n+:\n %0A     \n+ #\n  or self\n",
+            "lines": "134"
+        },
+        {
+            "label": "2025-11-02_19-29-27",
+            "content": "@@ -2052,16 +2052,17 @@\n  usage %3C\n+=\n  10:%0A   \n",
+            "lines": "134"
+        },
+        {
+            "label": "2025-11-02_19-30-07",
+            "content": "@@ -2095,16 +2095,44 @@\n pleta%22)%0A\n+      self.__tip.setSize(0)%0A\n       re\n",
+            "lines": "134"
+        },
+        {
+            "label": "2025-11-02_19-30-26",
+            "content": "@@ -1996,32 +1996,70 @@\n .__tip.getSize()\n+ == 10 %5C%0A      or self.__tip.getSize()\n  - usage %3C 10:%0A \n",
+            "lines": "133"
+        },
+        {
+            "label": "2025-11-02_19-31-35",
+            "content": "@@ -2061,37 +2061,8 @@\n a%22)%0A\n-      self.__tip.setSize(10)%0A\n     \n",
+            "lines": "132"
+        },
+        {
+            "label": "2025-11-02_19-33-01",
+            "content": "@@ -1981,100 +1981,8 @@\n t()%0A\n-%0A    if self.__tip.getSize() == 10:%0A      print(%22fail: tamanho insuficiente%22)%0A      return%0A%0A\n     \n",
+            "lines": "133"
+        },
+        {
+            "label": "2025-11-02_19-33-29",
+            "content": "class Lead:\n  def __init__(\n    self,\n    thickness: float,\n    hardness: str,\n    size: int\n  ):\n    self.__thickness = 0.0\n    self.__hardness = ''\n    self.__size = size\n    self.__setThickness(thickness)\n    self.__setHardness(hardness)\n\n  def __setThickness(self, thickness: int):\n    self.__thickness = thickness\n\n  def getThickness(self) -> float:\n    return self.__thickness\n\n  def getHardness(self) -> str:\n    return self.__hardness\n\n  def getSize(self) -> int:\n    return self.__size\n  \n  def setSize(self, size: int):\n    self.__size = size\n\n  def __setHardness(self, hardness: str):\n    if hardness != \"HB\" \\\n      and hardness != \"2B\" \\\n      and hardness != \"4B\" \\\n      and hardness != \"6B\":\n      print('fail: dureza invalida')\n      return\n    \n    self.__hardness = hardness\n\n  def usagePerSheet(self):\n    match self.getHardness():\n      case \"HB\":\n        return 1\n      case \"2B\":\n        return 2\n      case \"4B\":\n        return 4\n      case \"6B\":\n        return 6\n      case _:\n        return 0\n  \n  def __str__(self) -> str:\n    return f\"[{self.getThickness()}:{self.getHardness()}:{self.getSize()}]\"\n\n\nclass Pencil:\n  def __init__(self, thickness: int):\n    self.__thickness: int = thickness\n    self.__tip: Lead | None = None\n    self.__barrel: list[Lead] = []\n\n  def insert(self, lead: Lead) -> bool:\n    if lead.getThickness() != self.__thickness:\n      print(\"fail: calibre incompat\u00edvel\")\n      return False\n\n    self.__barrel.append(lead)\n    return True\n  \n  def remove(self) -> Lead | None:\n    tip = self.__tip\n    self.__tip = None\n    return tip\n  \n  def pull(self):\n    if self.__tip != None:\n      # self.remove()\n      print(\"fail: ja existe grafite no bico\")\n      return\n\n    if len(self.__barrel) == 0:\n      print(\"fail: vazio\")\n      return\n    \n    self.__tip = self.__barrel.pop(0)\n\n  def writePage(self):\n    if self.__tip == None:\n      print(\"fail: nao existe grafite no bico\")\n      return\n    \n    usage = self.__tip.usagePerSheet()\n\n    if self.__tip.getSize() == 10:\n      print(\"fail: tamanho insuficiente\")\n      return\n\n    if self.__tip.getSize() - usage < 10:\n      print(\"fail: folha incompleta\")\n      self.__tip.setSize(10)\n      return\n    \n    self.__tip.setSize(self.__tip.getSize() - usage)\n    \n  def __str__(self) -> str:\n    tipStr = \"[]\" if self.__tip == None else str(self.__tip)\n    barrelStr = ''.join([str(lead) for lead in self.__barrel])\n    return f\"calibre: {self.__thickness}, bico: {tipStr}, tambor: <{barrelStr}>\"\n    \n\nlapiseira = Pencil(0.5)\ndef main():\n  while True:\n    command = input().strip()\n    parts = command.split()\n    print(\"$\" + command)\n    cmd = parts[0]\n\n    if cmd == 'end':\n      break\n    elif cmd == 'init':\n      lapiseira = Pencil(float(parts[1]))\n    elif cmd == 'show':\n      print(lapiseira)\n    elif cmd == 'insert':\n      lead = Lead(float(parts[1]), parts[2], int(parts[3]))\n      lapiseira.insert(lead)\n    elif cmd == 'remove':\n      lapiseira.remove()\n    elif cmd == 'pull':\n      lapiseira.pull()\n    elif cmd == 'write':\n      lapiseira.writePage()\n    else:\n      print('fail: comando invalido')\n\nif __name__ == '__main__':\n  main()",
+            "lines": "138"
+        }
+    ]
+}

@@ -21,11 +21,12 @@ expanded:
 tasks:
   poo@array: '{rate:100, alone:10, study:10}'
   poo@budega: '{rate:100, iagen:autocomplete_simples, alone:10, study:20}'
+  poo@lapiseira: '{rate:100, alone:10, study:70}'
 flags:
   quests: 0
   tracks: 0
   tasks: 0
-  graph: 0
+  graph: 1
   xray: 0
 lang: py
-selected: poo@budega
+selected: poo@lapiseira
