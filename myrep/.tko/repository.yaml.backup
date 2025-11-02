@@ -23,6 +23,7 @@ tasks:
   poo@budega: '{rate:100, iagen:autocomplete_simples, alone:10, study:20}'
   poo@lapiseira: '{rate:100, alone:10, study:70}'
   poo@pula-pula: '{rate:100, alone:10, study:20}'
+  poo@cinema: '{rate:100, alone:10, study:20}'
 flags:
   quests: 0
   tracks: 0
@@ -30,4 +31,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@pula-pula
+selected: poo@cinema
