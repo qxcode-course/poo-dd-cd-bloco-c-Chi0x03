@@ -91,3 +91,8 @@
 2025-11-02 21:00:07, EXEC, v:1, k:poo@tabuleiro, mode:FULL, rate:100, size:120
 2025-11-02 21:00:09, MOVE, v:1, k:poo@tabuleiro, mode:BACK
 2025-11-02 21:00:19, SELF, v:1, k:poo@tabuleiro, rate:100, alone:10, study:45
+2025-11-02 21:01:30, MOVE, v:1, k:poo@junkfood, mode:DOWN
+2025-11-02 21:01:33, MOVE, v:1, k:poo@junkfood, mode:PICK
+2025-11-02 21:02:38, MOVE, v:1, k:poo@junkfood, mode:BACK
+2025-11-02 21:02:41, MOVE, v:1, k:poo@junkfood, mode:PICK
+2025-11-02 21:06:47, MOVE, v:1, k:poo@junkfood, mode:BACK

@@ -1,0 +1,33 @@
+2025-11-03 23:08:39, MOVE, v:1, k:poo@junkfood, mode:PICK
+2025-11-03 23:08:47, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:41
+2025-11-03 23:13:48, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:66
+2025-11-03 23:14:17, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:66
+2025-11-03 23:15:34, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:66
+2025-11-03 23:16:26, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:68
+2025-11-03 23:17:15, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0
+2025-11-03 23:17:21, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:68
+2025-11-03 23:17:54, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:68
+2025-11-03 23:18:53, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:68
+2025-11-03 23:19:24, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:68
+2025-11-03 23:19:38, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:10, size:68
+2025-11-03 23:20:17, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:68
+2025-11-03 23:20:23, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:0, size:68
+2025-11-03 23:20:30, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:10, size:68
+2025-11-03 23:21:04, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:10, size:71
+2025-11-03 23:22:28, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:10, size:71
+2025-11-03 23:23:56, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:20, size:77
+2025-11-03 23:24:30, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:20, size:81
+2025-11-03 23:25:30, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:20, size:84
+2025-11-03 23:25:47, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:30, size:87
+2025-11-03 23:27:22, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:30, size:96
+2025-11-03 23:27:38, MOVE, v:1, k:poo@junkfood, mode:BACK
+2025-11-03 23:27:38, MOVE, v:1, k:poo@junkfood, mode:PICK
+2025-11-03 23:27:39, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:40, size:96
+2025-11-03 23:28:36, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:40, size:102
+2025-11-03 23:28:52, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:40, size:104
+2025-11-03 23:29:00, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:50, size:104
+2025-11-03 23:30:27, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:50, size:124
+2025-11-03 23:30:38, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:80, size:127
+2025-11-03 23:30:57, EXEC, v:1, k:poo@junkfood, mode:FULL, rate:100, size:127
+2025-11-03 23:30:59, MOVE, v:1, k:poo@junkfood, mode:BACK
+2025-11-03 23:31:17, SELF, v:1, k:poo@junkfood, rate:100, alone:10, study:50

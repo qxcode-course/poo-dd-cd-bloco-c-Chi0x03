@@ -12,7 +12,7 @@ sources:
   type: clone
   branch: master
   cache_path: /home/caio/Área de trabalho/poo-dd-cd-bloco-c-Chi0x03/myrep/.tko/cache/poo/Readme.md
-  cache_timestamp: '2025-11-02 19:34:41'
+  cache_timestamp: '2025-11-03 23:08:35'
   filters:
   - listas
 expanded:
@@ -25,6 +25,7 @@ tasks:
   poo@pula-pula: '{rate:100, alone:10, study:20}'
   poo@cinema: '{rate:100, alone:10, study:20}'
   poo@tabuleiro: '{rate:100, alone:10, study:45}'
+  poo@junkfood: '{rate:100, alone:10, study:50}'
 flags:
   quests: 0
   tracks: 0
@@ -32,4 +33,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@tabuleiro
+selected: poo@junkfood
